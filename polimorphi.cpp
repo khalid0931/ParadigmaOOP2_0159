@@ -20,7 +20,7 @@ public:
 
 class lia : public seseorang {
 public:
-    voiid pesan() {
+    void pesan() {
         cout << "Pesan dari lia\n" << endl;
     }
 };

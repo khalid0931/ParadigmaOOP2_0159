@@ -14,3 +14,14 @@ public:
         cout << "Hallo saya Function dari derived Class" << endl;
     }
 };
+
+int main() {
+    baseClass* basePtr;
+    derivedClass derivedObj;
+
+    basePtr = &derivedObj;
+
+    basePtr->perkenalan();
+
+    return 0;
+}
